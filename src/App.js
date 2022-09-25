@@ -12,7 +12,7 @@ function App() {
         </div>
       </header>
       <footer>
-        <a href="#">Open-source</a>
+        <a href="https://github.com/ClauCruz/react-dictionary">Open-source</a>
         <span> dictionary coded by Clau Cruz</span>
       </footer>
     </div>
