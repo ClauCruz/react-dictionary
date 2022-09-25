@@ -1,6 +1,9 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 
+//Documentation
+//API link: https://dictionaryapi.dev/
+
 function App() {
   return (
     <div className="App">
