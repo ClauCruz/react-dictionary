@@ -9,12 +9,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
+          <h1>Dictionary</h1>
           <main>
             <Dictionary />
           </main>
         </div>
       </header>
-      <footer>
+      <footer classname="git-link">
         <a href="https://github.com/ClauCruz/react-dictionary">Open-source</a>
         <span> dictionary coded by Clau Cruz</span>
       </footer>
