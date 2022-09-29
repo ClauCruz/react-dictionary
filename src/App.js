@@ -15,7 +15,7 @@ function App() {
           </main>
         </div>
       </header>
-      <footer classname="git-link">
+      <footer className="git-link">
         <a href="https://github.com/ClauCruz/react-dictionary">Open-source</a>
         <span> dictionary coded by Clau Cruz</span>
       </footer>
