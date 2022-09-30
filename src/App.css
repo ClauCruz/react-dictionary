@@ -1,7 +1,41 @@
 .App {
-  margin: 30px 0;
+  background: #906387;
+}
+
+.welcome-title {
+  text-align: center;
+  font-family: "Creepster", cursive;
+  font-size: 100px;
 }
 
 footer {
   text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7dd87d;
+}
+
+.Dictionary input {
+  text-align: center;
+  border-radius: 6px;
+  width: 100%;
+  padding: 15px 4px;
+  border: 1px solid #ddd;
+}
+
+.Dictionary section {
+  background: #7dd87d;
+  padding: 70px;
+  margin: 12px 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(000/10%);
+}
+
+.WordResults h1 {
+  font-family: "Creepster", cursive;
+  font-size: 70px;
 }

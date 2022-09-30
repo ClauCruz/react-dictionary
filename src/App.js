@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <h1>Dictionary</h1>
+          <div className="welcome-title">I am hungry</div>
           <main>
             <Dictionary />
           </main>

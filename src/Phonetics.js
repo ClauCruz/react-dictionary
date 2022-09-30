@@ -3,7 +3,10 @@ import React from "react";
 export default function Phonetics(props) {
   return (
     <div className="Phonetics">
-      <a href={props.phonetics.audio}>{props.phonetics.text}</a>
+      {props.phonetics.text}
+      <a href={props.phonetics.audio}>
+        <img src="listen.png" alt="Listen" width={70}></img>
+      </a>
     </div>
   );
 }
