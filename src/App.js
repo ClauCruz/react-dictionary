@@ -16,7 +16,13 @@ function App() {
         </div>
       </header>
       <footer className="git-link">
-        <a href="https://github.com/ClauCruz/react-dictionary">Open-source</a>
+        <a
+          href="https://github.com/ClauCruz/react-dictionary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source
+        </a>
         <span> dictionary coded by Clau Cruz</span>
       </footer>
     </div>

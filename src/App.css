@@ -10,16 +10,17 @@
 
 footer {
   text-align: center;
-  color: white;
+  color: #eeeeee;
   padding: 10px;
 }
 
 footer a {
   text-decoration: none;
-  color: #7dd87d;
+  color: #ff6464;
 }
 
 .Dictionary input {
+  background: #eeeeee;
   text-align: center;
   border-radius: 6px;
   width: 100%;
@@ -38,4 +39,14 @@ footer a {
 .WordResults h1 {
   font-family: "Creepster", cursive;
   font-size: 70px;
+}
+
+.sound-button:hover {
+  opacity: 0.5;
+  box-shadow: 0 10px 10px rgb(000/10%);
+}
+
+.Images img {
+  border-radius: 8px;
+  margin-bottom: 10px;
 }

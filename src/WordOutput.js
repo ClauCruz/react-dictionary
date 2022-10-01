@@ -9,23 +9,22 @@ export default function WordResults(props) {
         <section>
           <h1>{props.output.word}</h1>
           {props.output.phonetics.map(function (phonetics, index) {
-            if (index >= 1)
-              return (
-                <div key={index}>
-                  <h2>
-                    <Phonetics phonetics={phonetics} />
-                  </h2>
-                </div>
-              );
+            if (index > 4) return <></>;
+            return (
+              <div key={index}>
+                <h2>
+                  <Phonetics phonetics={phonetics} />
+                </h2>
+              </div>
+            );
           })}
         </section>
         {props.output.meanings.map(function (meaning, index) {
-          if (index >= 4)
-            return (
-              <div key={index}>
-                <Meaning meaning={meaning} />
-              </div>
-            );
+          return (
+            <div key={index}>
+              <Meaning meaning={meaning} />
+            </div>
+          );
         })}
       </div>
     );

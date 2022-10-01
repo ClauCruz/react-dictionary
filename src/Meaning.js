@@ -8,6 +8,7 @@ export default function Meaning(props) {
       <section>
         <h3>{props.meaning.partOfSpeech}</h3>
         {props.meaning.definitions.map(function (definition, index) {
+          if (index > 4) return <></>;
           return (
             <div key={index}>
               <p>
