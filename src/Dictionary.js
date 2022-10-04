@@ -36,10 +36,12 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <section>
+        <img src="./colmillo izq.png" className="l-fang" width="60"></img>
+        <img src="./colmillo der.png" className="r-fang" width="60"></img>
         <form onSubmit={search}>
           <input
             type={search}
-            placeholder="Feed me a word!"
+            placeholder="I am hungry"
             onChange={handlewordInput}
           />
         </form>

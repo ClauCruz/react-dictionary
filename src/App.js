@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <div className="welcome-title">I am hungry</div>
+          <div className="welcome-title">Feed me a word!</div>
           <main>
             <Dictionary />
           </main>
@@ -21,7 +21,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Open-source
+          <strong>Open-source</strong>
         </a>
         <span> dictionary coded by Clau Cruz</span>
       </footer>
