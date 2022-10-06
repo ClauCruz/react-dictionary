@@ -52,16 +52,19 @@ footer a {
   margin-bottom: 10px;
 }
 
-.l-fang {
-  position: absolute;
-  top: 222px;
-  left: 175px;
-  height: 120px;
+.r-fang {
+  margin-right: -50px;
 }
 
-.r-fang {
-  position: absolute;
-  top: 222px;
-  right: 175px;
-  height: 120px;
+.l-fang {
+  margin-left: -50px;
+}
+
+form {
+  width: 100%;
+}
+section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }

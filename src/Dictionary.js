@@ -37,7 +37,6 @@ export default function Dictionary() {
     <div className="Dictionary">
       <section>
         <img src="./colmillo izq.png" className="l-fang" width="60"></img>
-        <img src="./colmillo der.png" className="r-fang" width="60"></img>
         <form onSubmit={search}>
           <input
             type={search}
@@ -45,6 +44,7 @@ export default function Dictionary() {
             onChange={handlewordInput}
           />
         </form>
+        <img src="./colmillo der.png" className="r-fang" width="60"></img>
       </section>
       <WordOutput output={wordOutput} />
       <Images images={images} />
